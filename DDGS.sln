@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34205.153
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGS", "DDGS\DDGS.csproj", "{EE921072-B415-4455-8FB0-8C4EB265979E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DDGS.Test", "DDGS.Test\DDGS.Test.csproj", "{B3E0ED9D-C956-429F-9EFA-489156D707CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EE921072-B415-4455-8FB0-8C4EB265979E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EE921072-B415-4455-8FB0-8C4EB265979E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EE921072-B415-4455-8FB0-8C4EB265979E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EE921072-B415-4455-8FB0-8C4EB265979E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B3E0ED9D-C956-429F-9EFA-489156D707CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B3E0ED9D-C956-429F-9EFA-489156D707CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B3E0ED9D-C956-429F-9EFA-489156D707CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B3E0ED9D-C956-429F-9EFA-489156D707CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8B2BFE1A-809E-4C73-83E3-FA16CE80DD56}
+	EndGlobalSection
+EndGlobal
