@@ -68,13 +68,13 @@ namespace DDGS
         internal static string normalize(string text)
         {
             text = reg.Replace(text, "");
+            text = text.Replace("&quot;", "\"");
             text = Uri.UnescapeDataString(text);
             return text;
         }
 
         internal static string normalizeUrl(string text)
         {
-            text = text.Substring(1, text.Length - 2);
             text = text.Replace(" ", "+");
             return text;
         }
